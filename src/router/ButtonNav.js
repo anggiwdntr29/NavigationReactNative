@@ -18,7 +18,7 @@ function ButtonNav() {
             iconName = focused ? "ios-home" : "ios-home-outline";
           } else if (route.name === "Course") {
             iconName = focused ? "menu" : "menu-outline";
-            size = 24;
+            size = 32;
           } else if (route.name === "Profile") {
             iconName = focused ? "person" : "person-outline";
           }
