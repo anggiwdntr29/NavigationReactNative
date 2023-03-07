@@ -1,9 +1,13 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 
-function Course() {
+function Course({ navigation }) {
   return (
     <View style={Styles.container}>
       <Text>Ini Course</Text>
+      <Button
+        title="Product"
+        onPress={() => navigation.navigate("Detail Product")}
+      />
     </View>
   );
 }
