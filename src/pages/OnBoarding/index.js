@@ -17,12 +17,12 @@ import React from "react";
 function OnBoarding({ navigation }) {
   return (
     <NativeBaseProvider>
-      <Center px={10} pt={9}>
+      <Center px="43px" pt="37">
         <Box bg="primary.600" width="100%" height="280" safeAreaTop />
         <Text
           fontSize={"2xl"}
           fontWeight={"semibold"}
-          mt={10}
+          mt={"42px"}
           textAlign={"justify"}
           width="100%"
         >
@@ -32,7 +32,7 @@ function OnBoarding({ navigation }) {
           width="100%"
           fontSize={"md"}
           fontWeight={"light"}
-          mt={3.5}
+          mt={"15px"}
           textAlign={"justify"}
         >
           Welcome to the Koding Academy Mobile App!
