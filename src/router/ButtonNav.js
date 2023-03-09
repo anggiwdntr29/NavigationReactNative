@@ -22,7 +22,6 @@ function ButtonNav() {
           } else if (route.name === "Profile") {
             iconName = focused ? "person" : "person-outline";
           }
-          // You can return any component that you like here!
           return <Ionicons name={iconName} size={size} color={color} />;
         },
       })}

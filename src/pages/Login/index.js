@@ -61,7 +61,6 @@ class Login extends Component {
               Log in to your account and continue your learning journey in
               Koding Akademi.
             </Text>
-
             <FormControl>
               <Stack space={5}>
                 <Stack>
